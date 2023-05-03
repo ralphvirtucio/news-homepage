@@ -39,8 +39,8 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+a {
+  text-decoration: none;
 }
 
 /* Make images easier to work with */
@@ -82,12 +82,20 @@ select {
   width: 1px;
 }
 
+.main {
+  padding-inline: 1rem;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 1rem;
   margin-block: 2rem;
+}
+
+.media__content {
+  padding-block: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,7 @@
 @use './base/reset';
 @use './base/typography';
 
+@use './page/home';
+
 @use './layout/header';
+@use './layout/sections';

@@ -107,6 +107,23 @@ select {
   font-size: 2rem;
 }
 
+.popular-news__rank {
+  font-weight: 800;
+  font-size: 2rem;
+  color: hsl(233deg, 8%, 79%);
+}
+
+.popular-news__media--heading {
+  margin-block: 0.3rem;
+}
+.popular-news__media--heading a {
+  color: hsl(240deg, 100%, 5%);
+}
+.popular-news__media--text {
+  color: hsl(236deg, 13%, 42%);
+  font-size: 0.9375rem;
+}
+
 .main {
   padding-inline: 1rem;
 }
@@ -160,6 +177,16 @@ select {
 .news__list--item-article p {
   color: hsl(236deg, 13%, 42%);
   font-size: 0.9375rem;
+}
+
+.popular-news__list-item {
+  display: flex;
+  gap: 1rem;
+  margin-block-end: 2rem;
+}
+.popular-news__img {
+  align-self: flex-start;
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

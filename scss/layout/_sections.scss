@@ -36,3 +36,16 @@
     }
   }
 }
+
+.popular-news {
+  &__list-item {
+    display: flex;
+    gap: 1rem;
+    margin-block-end: 2rem;
+  }
+
+  &__img {
+    align-self: flex-start;
+    width: 100px;
+  }
+}

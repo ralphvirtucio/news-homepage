@@ -40,3 +40,23 @@
   font-size: 2rem;
   // margin-block-end: 1rem;
 }
+
+.popular-news__rank {
+  font-weight: $fw-800;
+  font-size: 2rem;
+  color: $grayish-blue;
+}
+
+.popular-news__media {
+  &--heading {
+    margin-block: 0.3rem;
+    a {
+      color: $very-dark-blue;
+    }
+  }
+
+  &--text {
+    color: $dark-grayish-blue;
+    font-size: $fs-body;
+  }
+}

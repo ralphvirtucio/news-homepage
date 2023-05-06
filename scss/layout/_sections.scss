@@ -15,6 +15,10 @@
   padding-block-start: 1rem;
   margin-block-end: 3rem;
 
+  @media screen and (min-width: 1024px) {
+    grid-area: auto / 2 / auto / auto;
+  }
+
   &__list--item {
     padding-block: 2rem;
     &:not(&:last-child) {
@@ -38,6 +42,15 @@
 }
 
 .popular-news {
+  &__list {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row;
+    }
+  }
+
   &__list-item {
     display: flex;
     gap: 1rem;
@@ -47,5 +60,9 @@
   &__img {
     align-self: flex-start;
     width: 100px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-column-end: span 3;
   }
 }

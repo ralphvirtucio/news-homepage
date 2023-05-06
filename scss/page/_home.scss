@@ -1,3 +1,10 @@
 .main {
   padding-inline: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }

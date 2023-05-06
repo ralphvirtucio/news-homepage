@@ -1,0 +1,26 @@
+@use '../abstracts/' as *;
+
+.nav {
+  &__list {
+    display: none;
+
+    &-item {
+      a {
+        color: $dark-grayish-blue;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+
+  &__burger-icon {
+    display: block;
+
+    @media screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+}

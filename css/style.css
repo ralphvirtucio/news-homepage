@@ -139,6 +139,28 @@ select {
   display: inline-block;
 }
 
+.nav__list {
+  display: none;
+}
+.nav__list-item a {
+  color: hsl(236deg, 13%, 42%);
+}
+@media screen and (min-width: 1024px) {
+  .nav__list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+.nav__burger-icon {
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .nav__burger-icon {
+    display: none;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;

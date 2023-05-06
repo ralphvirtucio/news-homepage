@@ -143,6 +143,11 @@ select {
   color: hsl(236deg, 13%, 42%);
   font-size: 0.9375rem;
 }
+@media screen and (min-width: 1024px) {
+  .popular-news__media {
+    width: 55%;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .container {

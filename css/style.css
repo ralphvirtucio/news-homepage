@@ -144,6 +144,14 @@ select {
   font-size: 0.9375rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 75rem;
+    max-width: 90rem;
+    margin-inline: auto;
+  }
+}
+
 .main {
   padding-inline: 1rem;
   display: grid;
@@ -254,12 +262,14 @@ select {
 @media screen and (min-width: 1024px) {
   .popular-news__list {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .popular-news__list-item {
   display: flex;
   gap: 1rem;
   margin-block-end: 2rem;
+  flex: 1;
 }
 .popular-news__img {
   align-self: flex-start;
@@ -267,7 +277,7 @@ select {
 }
 @media screen and (min-width: 1024px) {
   .popular-news {
-    grid-column-end: span 3;
+    grid-column-end: span 4;
   }
 }
 

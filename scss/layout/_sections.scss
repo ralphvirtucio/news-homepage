@@ -1,11 +1,22 @@
 @use '../abstracts/' as *;
 
 .media__content {
-  padding-block: 1rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    padding-block-end: 0;
+  }
 }
 
 .featured__article {
   margin-block-end: 3rem;
+
+  @media screen and (min-width: 1024px) {
+    grid-area: auto / auto/ auto / span 2;
+  }
 }
 
 .news {
@@ -16,7 +27,7 @@
   margin-block-end: 3rem;
 
   @media screen and (min-width: 1024px) {
-    grid-area: auto / 2 / auto / auto;
+    grid-area: auto / 3 / auto / auto;
   }
 
   &__list--item {

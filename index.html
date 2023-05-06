@@ -16,135 +16,137 @@
   </head>
   <body>
     <h1 class="visually-hidden">News Homepage</h1>
-    <header class="header">
-      <img src="./assets/images/logo.svg" alt="Logo" class="header__logo" />
-      <nav class="nav">
-        <img
-          src="./assets/images/icon-menu.svg"
-          alt="Menu"
-          class="nav__burger-icon" />
+    <div class="container">
+      <header class="header">
+        <img src="./assets/images/logo.svg" alt="Logo" class="header__logo" />
+        <nav class="nav">
+          <img
+            src="./assets/images/icon-menu.svg"
+            alt="Menu"
+            class="nav__burger-icon" />
 
-        <ul class="nav__list">
-          <li class="nav__list-item"><a href="#">Home</a></li>
-          <li class="nav__list-item"><a href="#">New</a></li>
-          <li class="nav__list-item"><a href="#">Popular</a></li>
-          <li class="nav__list-item"><a href="#">Trending</a></li>
-          <li class="nav__list-item"><a href="#">Categories</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="featured__article">
-        <h2 class="visually-hidden">Featured Article</h2>
-        <picture>
-          <source
-            srcset="./assets/images/image-web-3-desktop.jpg"
-            media="(min-width: 1024px)" />
-          <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3" />
-        </picture>
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="#">Home</a></li>
+            <li class="nav__list-item"><a href="#">New</a></li>
+            <li class="nav__list-item"><a href="#">Popular</a></li>
+            <li class="nav__list-item"><a href="#">Trending</a></li>
+            <li class="nav__list-item"><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="featured__article">
+          <h2 class="visually-hidden">Featured Article</h2>
+          <picture>
+            <source
+              srcset="./assets/images/image-web-3-desktop.jpg"
+              media="(min-width: 1024px)" />
+            <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3" />
+          </picture>
 
-        <article class="media__content">
-          <h3 class="media__heading--main">
-            <a href="#">The Bright Future of Web 3.0</a>
-          </h3>
-          <div class="media__text--main">
-            <p>
-              We dive into the next evolution of the web that claims to put the
-              power of the platforms back into the hands of the people. But is
-              it really fulfilling its promise?
-            </p>
-          </div>
-        </article>
-        <a href="#" class="read-more__btn">Read More</a>
-      </section>
-
-      <section class="news">
-        <h2 class="visually-hidden">News</h2>
-        <h3 class="news__heading">New</h3>
-        <ul class="news__list">
-          <li class="news__list--item">
-            <article class="news__list--item-article">
-              <h3>
-                <a href="#">Hydrogen VS Electric Cars</a>
-              </h3>
-              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-            </article>
-          </li>
-          <li class="news__list--item">
-            <article class="news__list--item-article">
-              <h3>
-                <a href="#">The Downsides of AI Artistry</a>
-              </h3>
+          <article class="media__content">
+            <h3 class="media__heading--main">
+              <a href="#">The Bright Future of Web 3.0?</a>
+            </h3>
+            <div class="media__text--main">
               <p>
-                What are the possible adverse effects of on-demand AI image
-                generation?
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
               </p>
-            </article>
-          </li>
-          <li class="news__list--item">
-            <article class="news__list--item-article">
-              <h3>
-                <a href="#">Is VC Funding Drying Up?</a>
-              </h3>
-              <p>
-                Private funding by VC firms is down 50% YOY. We take a look at
-                what that means
-              </p>
-            </article>
-          </li>
-        </ul>
-      </section>
+              <a href="#" class="read-more__btn">Read More</a>
+            </div>
+          </article>
+        </section>
 
-      <section class="popular-news">
-        <h3 class="visually-hidden">Popular News</h3>
-        <ol class="popular-news__list">
-          <li class="popular-news__list-item">
-            <img
-              src="./assets/images/image-retro-pcs.jpg"
-              alt="Retro PCs"
-              class="popular-news__img" />
-            <article class="popular-news__media">
-              <p aria-hidden="true" class="popular-news__rank">01</p>
-              <h3 class="popular-news__media--heading">
-                <a href="#">Reviving Retro PCs</a>
-              </h3>
-              <p class="popular-news__media--text">
-                What happens when old PCs are given modern upgrades?
-              </p>
-            </article>
-          </li>
-          <li class="popular-news__list-item">
-            <img
-              src="./assets/images/image-top-laptops.jpg"
-              alt="Top 10 Laptops"
-              class="popular-news__img" />
-            <article class="popular-news__media">
-              <p aria-hidden="true" class="popular-news__rank">02</p>
-              <h3 class="popular-news__media--heading">
-                <a href="#">Top 10 Laptops of 2023</a>
-              </h3>
-              <p class="popular-news__media--text">
-                Our best picks for various needs and budgets.
-              </p>
-            </article>
-          </li>
-          <li class="popular-news__list-item">
-            <img
-              src="./assets/images/image-gaming-growth.jpg"
-              alt="Gaming Growth"
-              class="popular-news__img" />
-            <article class="popular-news__media">
-              <p aria-hidden="true" class="popular-news__rank">03</p>
-              <h3 class="popular-news__media--heading">
-                <a href="#">The Growth of Gaming</a>
-              </h3>
-              <p class="popular-news__media--text">
-                How the pandemic has sparked fresh opportunities.
-              </p>
-            </article>
-          </li>
-        </ol>
-      </section>
-    </main>
+        <section class="news">
+          <h2 class="visually-hidden">News</h2>
+          <h3 class="news__heading">New</h3>
+          <ul class="news__list">
+            <li class="news__list--item">
+              <article class="news__list--item-article">
+                <h3>
+                  <a href="#">Hydrogen VS Electric Cars</a>
+                </h3>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              </article>
+            </li>
+            <li class="news__list--item">
+              <article class="news__list--item-article">
+                <h3>
+                  <a href="#">The Downsides of AI Artistry</a>
+                </h3>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </article>
+            </li>
+            <li class="news__list--item">
+              <article class="news__list--item-article">
+                <h3>
+                  <a href="#">Is VC Funding Drying Up?</a>
+                </h3>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <section class="popular-news">
+          <h3 class="visually-hidden">Popular News</h3>
+          <ol class="popular-news__list">
+            <li class="popular-news__list-item">
+              <img
+                src="./assets/images/image-retro-pcs.jpg"
+                alt="Retro PCs"
+                class="popular-news__img" />
+              <article class="popular-news__media">
+                <p aria-hidden="true" class="popular-news__rank">01</p>
+                <h3 class="popular-news__media--heading">
+                  <a href="#">Reviving Retro PCs</a>
+                </h3>
+                <p class="popular-news__media--text">
+                  What happens when old PCs are given modern upgrades?
+                </p>
+              </article>
+            </li>
+            <li class="popular-news__list-item">
+              <img
+                src="./assets/images/image-top-laptops.jpg"
+                alt="Top 10 Laptops"
+                class="popular-news__img" />
+              <article class="popular-news__media">
+                <p aria-hidden="true" class="popular-news__rank">02</p>
+                <h3 class="popular-news__media--heading">
+                  <a href="#">Top 10 Laptops of 2023</a>
+                </h3>
+                <p class="popular-news__media--text">
+                  Our best picks for various needs and budgets.
+                </p>
+              </article>
+            </li>
+            <li class="popular-news__list-item">
+              <img
+                src="./assets/images/image-gaming-growth.jpg"
+                alt="Gaming Growth"
+                class="popular-news__img" />
+              <article class="popular-news__media">
+                <p aria-hidden="true" class="popular-news__rank">03</p>
+                <h3 class="popular-news__media--heading">
+                  <a href="#">The Growth of Gaming</a>
+                </h3>
+                <p class="popular-news__media--text">
+                  How the pandemic has sparked fresh opportunities.
+                </p>
+              </article>
+            </li>
+          </ol>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

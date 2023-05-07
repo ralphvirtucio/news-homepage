@@ -72,5 +72,9 @@
     color: $dark-grayish-blue;
     font-size: $fs-body;
     grid-area: text;
+
+    @media screen and (min-width: 1024px) {
+      width: 225px;
+    }
   }
 }

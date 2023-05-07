@@ -143,6 +143,16 @@ select {
   font-size: 0.9375rem;
   grid-area: text;
 }
+@media screen and (min-width: 1024px) {
+  .popular-news__media--text {
+    width: 225px;
+  }
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
 
 @media screen and (min-width: 1024px) {
   .container {
@@ -203,6 +213,11 @@ select {
   justify-content: space-between;
   padding-inline: 1rem;
   margin-block: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 1165px;
+  }
 }
 
 .media__content {

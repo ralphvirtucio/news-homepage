@@ -36,15 +36,13 @@
 
 .media__text {
   &--main {
-    width: 50%;
+    @media screen and (min-width: 1024px) {
+      width: 50%;
+    }
     p {
       color: $dark-grayish-blue;
       font-size: $fs-body;
       margin-block-end: 2rem;
-    }
-
-    @media screen and (min-width: 1024px) {
-      width: 50%;
     }
   }
 }
@@ -58,11 +56,13 @@
   font-weight: $fw-800;
   font-size: 2rem;
   color: $grayish-blue;
+  grid-area: rank;
 }
 
 .popular-news__media {
   &--heading {
     margin-block: 0.3rem;
+    grid-area: heading;
     a {
       color: $very-dark-blue;
     }
@@ -71,9 +71,6 @@
   &--text {
     color: $dark-grayish-blue;
     font-size: $fs-body;
-  }
-
-  @media screen and (min-width: 1024px) {
-    width: 55%;
+    grid-area: text;
   }
 }

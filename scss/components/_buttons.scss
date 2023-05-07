@@ -2,11 +2,21 @@
 
 .read-more__btn {
   text-transform: uppercase;
-  background-color: $soft-red;
-  color: $off-white;
   padding-inline: 1.5rem;
   padding-block: 1rem;
   letter-spacing: 5px;
   font-size: $fs-body;
   display: inline-block;
+  color: $off-white;
+
+  &:link,
+  &:visited,
+  &:active {
+    background-color: $soft-red;
+    transition: background-color, 0.2s;
+  }
+
+  &:hover {
+    background-color: $very-dark-blue;
+  }
 }

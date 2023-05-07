@@ -64,7 +64,16 @@
     margin-block: 0.3rem;
     grid-area: heading;
     a {
-      color: $very-dark-blue;
+      &:link,
+      &:visited,
+      &:active {
+        color: $very-dark-blue;
+        transition: color, 0.2s;
+      }
+
+      &:hover {
+        color: $soft-red;
+      }
     }
   }
 

@@ -195,30 +195,22 @@ body {
   background-color: hsl(240deg, 100%, 5%);
 }
 
-.nav__list {
-  display: none;
-}
-.nav__list-item a:link, .nav__list-item a:visited, .nav__list-item a:active {
-  color: hsl(236deg, 13%, 42%);
-  transition: color, 0.2s;
-}
-.nav__list-item a:hover {
-  color: hsl(5deg, 85%, 63%);
-}
-@media screen and (min-width: 1024px) {
-  .nav__list {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
+.nav {
+  position: fixed;
+  background-color: #000;
+  overflow: hidden;
 }
 .nav__burger-icon {
-  display: block;
+  display: inline-block;
 }
-@media screen and (min-width: 1024px) {
-  .nav__burger-icon {
-    display: none;
-  }
+
+.nav {
+  max-height: 0;
+  transform: max-height 0.5s ease-out;
+}
+
+.side-menu:checked ~ nav {
+  max-height: 100%;
 }
 
 .header {
@@ -227,6 +219,9 @@ body {
   justify-content: space-between;
   padding-inline: 1rem;
   margin-block: 2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 @media screen and (min-width: 1024px) {
   .header {

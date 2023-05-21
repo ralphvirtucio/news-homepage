@@ -24,4 +24,16 @@
 #hamburger_btn {
   border: none;
   background-color: #fff;
+  cursor: pointer;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+#hamburger_btn--close {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  align-self: flex-end;
 }

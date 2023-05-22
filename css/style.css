@@ -199,6 +199,7 @@ body {
   border: none;
   background-color: #fff;
   cursor: pointer;
+  align-items: flex-end;
 }
 @media screen and (min-width: 1024px) {
   #hamburger_btn {
@@ -211,6 +212,28 @@ body {
   background-color: #fff;
   cursor: pointer;
   align-self: flex-end;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: hsl(36deg, 100%, 99%);
+  padding-block-start: 2rem;
+  padding-inline: 1rem;
+  width: 60%;
+  height: 100%;
+}
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-block-start: 5rem;
+}
+.nav__list-item--link:link, .nav__list-item--link:active, .nav__list-item--link:visited {
+  color: hsl(240deg, 100%, 5%);
 }
 
 .header {

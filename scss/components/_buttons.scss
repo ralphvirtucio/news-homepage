@@ -25,6 +25,7 @@
   border: none;
   background-color: #fff;
   cursor: pointer;
+  align-items: flex-end;
 
   @media screen and (min-width: 1024px) {
     display: none;

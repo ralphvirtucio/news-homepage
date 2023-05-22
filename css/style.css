@@ -222,7 +222,7 @@ body {
   top: 0;
   background-color: hsl(36deg, 100%, 99%);
   padding-block-start: 2rem;
-  padding-inline: 1rem;
+  padding-inline: 1.25rem;
   width: 60%;
   height: 100%;
 }
@@ -234,6 +234,10 @@ body {
 }
 .nav__list-item--link:link, .nav__list-item--link:active, .nav__list-item--link:visited {
   color: hsl(240deg, 100%, 5%);
+}
+
+.mobile-menu-active {
+  display: none;
 }
 
 .header {

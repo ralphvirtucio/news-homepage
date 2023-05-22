@@ -8,7 +8,7 @@
   top: 0;
   background-color: $off-white;
   padding-block-start: 2rem;
-  padding-inline: 1rem;
+  padding-inline: 1.25rem;
   width: 60%;
   height: 100%;
 
@@ -27,6 +27,10 @@
       }
     }
   }
+}
+
+.mobile-menu-active {
+  display: none;
 }
 
 // .nav {
@@ -82,8 +86,4 @@
 //   @media screen and (min-width: 1024px) {
 //     display: none;
 //   }
-// }
-
-// .mobile-menu-active {
-//   display: none;
 // }

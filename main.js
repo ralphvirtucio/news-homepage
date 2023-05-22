@@ -1,13 +1,11 @@
 const hamburgerButton = document.querySelector('#hamburger_btn');
-
-// const hambugerBtn = document.querySelector('#hamburger_btn');
-// const hambugerCloseBtn = document.querySelector('#hamburger_btn--close');
-// const mobileMenu = document.querySelector('.mobile-menu');
+const hambugerCloseButton = document.querySelector('#hamburger_btn--close');
+const mobileMenu = document.querySelector('.nav');
 
 hamburgerButton.addEventListener('click', () => {
-  console.log('clicked');
+  mobileMenu.classList.remove('mobile-menu-active');
 });
 
-// hambugerCloseBtn.addEventListener('click', () => {
-//   mobileMenu.classList.toggle('mobile-menu-active');
-// });
+hambugerCloseButton.addEventListener('click', () => {
+  mobileMenu.classList.add('mobile-menu-active');
+});

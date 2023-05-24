@@ -225,6 +225,7 @@ body {
   padding-inline: 1.25rem;
   width: 60%;
   height: 100%;
+  box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.6);
 }
 .nav__list {
   display: flex;

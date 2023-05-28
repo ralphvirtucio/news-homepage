@@ -66,6 +66,7 @@
 
   @media screen and (min-width: 1024px) {
     grid-area: auto / 1 / auto / span 4;
+    margin-block-end: 0;
   }
 
   &__list {

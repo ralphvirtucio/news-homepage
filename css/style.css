@@ -155,6 +155,10 @@ select {
   }
 }
 
+body {
+  background-color: hsl(36deg, 100%, 99%);
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     width: 75rem;
@@ -342,6 +346,7 @@ select {
 @media screen and (min-width: 1024px) {
   .popular-news {
     grid-area: auto/1/auto/span 4;
+    margin-block-end: 0;
   }
 }
 .popular-news__list {

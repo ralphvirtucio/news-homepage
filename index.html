@@ -16,12 +16,15 @@
     <script src="main.js" defer></script>
   </head>
   <body>
-    <h1 class="visually-hidden">News Homepage</h1>
     <div class="container">
+      <h1 class="visually-hidden">News Homepage</h1>
       <header class="header">
         <img src="./assets/images/logo.svg" alt="Logo" class="header__logo" />
 
-        <button aria-expanded="false" id="hamburger_btn">
+        <button
+          aria-expanded="true"
+          aria-controls="hamburger_button"
+          id="hamburger_btn">
           <img src="./assets/images/icon-menu.svg" alt="Hamburger" />
         </button>
         <nav class="nav mobile-menu-inactive">

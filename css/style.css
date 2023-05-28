@@ -39,6 +39,8 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-family: "Inter", sans-serif;
+  display: grid;
+  place-items: center;
 }
 
 /* A elements that don't have a class get default styles */
@@ -151,11 +153,6 @@ select {
   .popular-news__media--text {
     width: 225px;
   }
-}
-
-body {
-  display: grid;
-  place-items: center;
 }
 
 @media screen and (min-width: 1024px) {
